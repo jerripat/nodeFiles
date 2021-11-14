@@ -1,22 +1,24 @@
 {
-  "name": "nodefiles",
-  "version": "1.0.0",
-  "description": "",
-  "main": "fileServer.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jerripat/nodeFiles.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jerripat/nodeFiles/issues"
-  },
-  "homepage": "https://github.com/jerripat/nodeFiles#readme",
-  "dependencies": {
-    "update": "^0.7.4"
-  }
+    "name": "nodefiles",
+    "version": "1.0.0",
+    "description": "",
+    "main": "fileServer.js",
+    "scripts": {
+
+        "start": "node fileserver.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jerripat/nodeFiles.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jerripat/nodeFiles/issues"
+    },
+    "homepage": "https://github.com/jerripat/nodeFiles#readme",
+    "dependencies": {
+        "update": "^0.7.4"
+    }
 }
